@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loginSection.classList.add('hidden');
         loadingSection.classList.remove('hidden');
         setTimeout(() => {
-            window.location.href = 'https://luishparedes.github.io/pastelometro/';
+            window.location.href = 'https://luishparedesonline-alt.github.io/pastelometro3/';
         }, 2000);
     }
 
