@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al Pastelómetro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Acceso al Pastelómetro</h1>
+        
+        <div id="login-section">
+            <div class="input-group">
+                <label for="access-code">Código de Acceso</label>
+                <input type="text" id="access-code" placeholder="Ingrese su código (ej. PAST-XXXX-XXXX-XXXX-XXXX)" maxlength="24">
+            </div>
+            
+            <button id="login-btn">Acceder</button>
+            <div id="error-message" class="error hidden"></div>
+            <div id="success-message" class="success hidden"></div>
+            
+            <div class="info">
+                <p><strong>Horario de atención:</strong> 8:00 AM - 4:00 PM</p>
+                <p><strong>Soporte técnico:</strong> 0412-5278450</p>
+            </div>
+        </div>
+        
+        <div id="loading-section" class="hidden">
+            <div class="loading"></div>
+            <p>Verificando acceso...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
